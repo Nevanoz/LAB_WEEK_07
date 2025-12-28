@@ -6,13 +6,13 @@
 
     <application
         android:allowBackup="true"
-        android:label="@string/app_name"
-        android:supportsRtl="true"
+        android:label="LAB_WEEK_07"
         android:theme="@style/Theme.LAB_WEEK_07">
 
+        <!-- GOOGLE MAPS API KEY (PLACEHOLDER) -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="YOUR_API_KEY"/>
+            android:value="AIzaSyC2KlzEecfqfUfDPqCJ8rbAcguCIQFOsac"/>
 
         <activity
             android:name=".MapsActivity"
