@@ -9,10 +9,10 @@
         android:label="LAB_WEEK_07"
         android:theme="@style/Theme.LAB_WEEK_07">
 
-        <!-- GOOGLE MAPS API KEY (PLACEHOLDER) -->
+        <!-- GOOGLE MAPS API KEY (SECURE) -->
         <meta-data
             android:name="com.google.android.geo.API_KEY"
-            android:value="AIzaSyC2KlzEecfqfUfDPqCJ8rbAcguCIQFOsac"/>
+            android:value="${MAPS_API_KEY}" />
 
         <activity
             android:name=".MapsActivity"
